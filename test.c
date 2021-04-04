@@ -3,10 +3,11 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
     printf("Test 1, 2, 34, 5666");
-
-    return 0;
+    puts("Hello, world");
+    return EXIT_SUCCESS;
 }
